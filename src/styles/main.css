@@ -1,15 +1,15 @@
-.score{
-    color: #FF0000;
+.score {
+    color: #FF0050;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     height: 100vh;
     background-image: url(/src/images/wall.png);
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -19,18 +19,19 @@
     color: #ffffff;
 }
 
-.panel{
-    margin: 30px;
+.panel {
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.life{
+.life {
     height: 40px;
     margin: 10px;
 }
-.square{
+
+.square {
     height: 150px;
     width: 150px;
     margin: 10px;
@@ -39,14 +40,70 @@
     background-size: cover;
 }
 
-.enimy{
+.enimy {
     background-image: url(/src/images/ralph.png);
     background-size: cover;
 }
 
-.menu-score{
+.menu-score {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.foot {
+    background-image: url(/src/images/street.jpg);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 140px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.foot-text{
+    margin-bottom: 10px;
+}
+
+.dev {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon{
+    width: 24px;
+    margin-inline-end: 10px;
+}
+
+.icon-text{
+    margin-inline-end: 10px ;
+}
+
+a{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p{
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.creditos{
+    font-size: 8px;
+    color: #FFFFFF;
+    margin-top: 15px;
 }
